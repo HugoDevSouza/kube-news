@@ -224,7 +224,7 @@ data:
         source_labels:
         - __meta_kubernetes_pod_node_name
         target_label: node
-      scrape_interval: 5m
+      scrape_interval: 4m
       scrape_timeout: 30s
     - honor_labels: true
       job_name: prometheus-pushgateway
