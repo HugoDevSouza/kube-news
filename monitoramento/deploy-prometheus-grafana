@@ -641,7 +641,7 @@ spec:
     component: "node-exporter"
     app: prometheus
     release: prometheus
-  type: "ClusterIP"
+  type: ClusterIP
 ---
 apiVersion: v1
 kind: Service
@@ -665,7 +665,7 @@ spec:
     app: prometheus
     release: prometheus
   sessionAffinity: None
-  type: "ClusterIP"
+  type: ClusterIP
 ---
 apiVersion: apps/v1
 kind: DaemonSet
